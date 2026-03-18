@@ -3,7 +3,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export EDITOR=nvim
 export VISUAL=nvim
 
-DOTFILES_GIT_PATH="$HOME/.dotfiles.git"
+DOTFILES_GIT="$HOME/.dotfiles.git"
 ZSHRC_LOCAL="$HOME/.zshrc.local"
 
 ZSH_THEME='robbyrussell'
@@ -18,7 +18,7 @@ alias :e=nvim
 
 command -v wl-copy &>/dev/null && alias cb=wl-copy
 
-alias dot="git --git-dir=$DOTFILES_GIT_PATH --work-tree=$HOME"
+alias dot="git --git-dir=$DOTFILES_GIT --work-tree=$HOME"
 
 # machine specific additions; not tracked by git
 [ -f "$ZSHRC_LOCAL" ] && source "$ZSHRC_LOCAL"
