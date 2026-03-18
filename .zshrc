@@ -10,7 +10,7 @@ ZSH_THEME='robbyrussell'
 plugins=(docker git asdf sudo)
 source "$ZSH/oh-my-zsh.sh"
 
-command -v batcat &>/dev/null &&  alias cat='batcat --style=plain --paging=never'
+command -v batcat &>/dev/null && alias cat='batcat --style=plain --paging=never'
 
 alias vim=nvim
 alias v=nvim
@@ -25,7 +25,7 @@ alias la='ls -lAh'
 alias ll='ls -lh'
 
 alias serve='python -m http.server -b 127.0.0.1 8000'
-alias servelan='python -m http.server -b 0.0.0.0 8000'
+alias servelan='python -m http.server --bind 0.0.0.0 8000'
 alias tt="/usr/bin/time -f '%e'"
 alias h="fc -liD -${HISTSIZE}"
 alias dot="git --git-dir=$DOTFILES_GIT --work-tree=$HOME"
