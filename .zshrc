@@ -18,6 +18,8 @@ alias :e=nvim
 
 alias tt="/usr/bin/time -f '%e'"
 alias g=grep
+alias history="fc -liD -${HISTSIZE}"
+alias h=history
 alias dot="git --git-dir=$DOTFILES_GIT --work-tree=$HOME"
 
 command -v wl-copy &>/dev/null && alias cb=wl-copy
