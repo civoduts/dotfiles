@@ -15,7 +15,7 @@ alias vim=nvim
 alias v=nvim
 alias :e=nvim
 
-alias cb=wl-copy
+command -v wl-copy &>/dev/null && alias cb=wl-copy
 
 alias dot="git --git-dir=$DOTFILES_GIT_PATH --work-tree=$HOME"
 
