@@ -1,0 +1,14 @@
+[user]
+	name = Mirko Studovic
+	email = mirkosec@gmail.com
+[core]
+	editor = nvim
+	autocrlf = false
+[init]
+	defaultBranch = main
+[color]
+	ui = true
+[commit]
+	verbose = true
+[alias]
+	lg = log --oneline --graph --decorate --all
