@@ -9,7 +9,7 @@ ZSH_THEME='robbyrussell'
 plugins=(docker git asdf sudo)
 source "$ZSH/oh-my-zsh.sh"
 
-alias cat='batcat --style=plain --paging=never'
+command -v batcat &>/dev/null &&  alias cat='batcat --style=plain --paging=never'
 
 alias vim=nvim
 alias v=nvim
