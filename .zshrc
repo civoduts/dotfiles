@@ -17,6 +17,7 @@ alias v=nvim
 alias :e=nvim
 
 alias tt="/usr/bin/time -f '%e'"
+alias grep='grep --color'
 alias g=grep
 alias h="fc -liD -${HISTSIZE}"
 alias dot="git --git-dir=$DOTFILES_GIT --work-tree=$HOME"
