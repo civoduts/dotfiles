@@ -17,10 +17,10 @@ alias v=nvim
 alias :e=nvim
 
 alias tt="/usr/bin/time -f '%e'"
+alias g=grep
+alias dot="git --git-dir=$DOTFILES_GIT --work-tree=$HOME"
 
 command -v wl-copy &>/dev/null && alias cb=wl-copy
-
-alias dot="git --git-dir=$DOTFILES_GIT --work-tree=$HOME"
 
 # machine specific additions; not tracked by git
 [ -f "$ZSHRC_LOCAL" ] && source "$ZSHRC_LOCAL"
