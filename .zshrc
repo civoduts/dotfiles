@@ -19,7 +19,7 @@ alias :e=nvim
 alias g=grep
 alias grep='grep --color'
 alias egrep='grep -E'
-alias ls='ls --color=tty'
+alias ls='ls --color=auto'
 alias l='ls -lah'
 alias la='ls -lAh'
 alias ll='ls -lh'
