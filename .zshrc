@@ -1,5 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 [ -d "$HOME/.local/bin" ] && export PATH="$HOME/.local/bin:$PATH"
+[ -d "$HOME/go/bin" ] && export PATH="$HOME/go/bin:$PATH"
 export EDITOR=nvim
 export VISUAL=nvim
 
