@@ -6,7 +6,7 @@ export VISUAL=nvim
 DOTFILES_GIT="$HOME/.dotfiles.git"
 ZSHRC_LOCAL="$HOME/.zshrc.local"
 
-ZSH_THEME='robbyrussell'
+ZSH_THEME='superjarin'
 plugins=(docker git asdf sudo)
 source "$ZSH/oh-my-zsh.sh"
 
