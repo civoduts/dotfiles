@@ -1,0 +1,44 @@
+{
+	"$schema": "https://vicinae.com/schemas/config.json",
+
+	"telemetry": {
+		"system_info": false
+	},
+
+	"search_files_in_root": false,
+	"favicon_service": "twenty",
+
+	"font": {
+		"rendering": "qt",
+		"normal": {
+			"family": "IBM Plex Mono",
+			"size": 10.5
+		}
+	},
+
+	"theme": {
+		"dark": {
+			"name": "vicinae-dark",
+			"icon_theme": "auto"
+		}
+	},
+
+	"launcher_window": {
+		"opacity": 0.9,
+		"blur": {
+			"enabled": true
+		},
+		"dim_around": true,
+
+		"client_side_decorations": {
+			"enabled": true,
+			"rounding": 10,
+			"border_width": 1
+		},
+
+		"size": {
+			"width": 770,
+			"height": 380
+		}
+	}
+}
