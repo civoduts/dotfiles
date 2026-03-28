@@ -12,10 +12,11 @@ Create `~/.zshrc.local` for settings that should not be tracked: machine-specifi
 
 ## Dependencies
 
-The following tools are expected to be installed:
+The following tools are used:
 
 - **oh-my-zsh**
 - **nvim**
+- **Vicinae**
 - **tmux**
 - **batcat**
 - **asdf**
