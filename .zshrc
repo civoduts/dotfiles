@@ -27,6 +27,7 @@ alias ll='ls -lh'
 
 alias psmem='ps -eo pid,user,%mem,%cpu,cmd --sort=-rss --columns=80 | head -20'
 alias pscpu='ps -eo pid,user,%mem,%cpu,cmd --sort=-%cpu --columns=80 | head -20'
+alias hdd='df -h | sort -k 5 -r'
 
 alias serve='python -m http.server -b 127.0.0.1 8000'
 alias servelan='python -m http.server --bind 0.0.0.0 8000'
