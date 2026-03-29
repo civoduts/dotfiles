@@ -13,6 +13,9 @@ source "$ZSH/oh-my-zsh.sh"
 
 command -v batcat &>/dev/null && alias cat='batcat --theme=gruvbox-dark --style=plain --paging=never'
 
+alias va='python -m venv .venv'
+alias activate='source .venv/bin/activate'
+
 alias vim=nvim
 alias v=nvim
 alias :e=nvim
