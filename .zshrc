@@ -30,8 +30,8 @@ alias l='ls -lah'
 alias la='ls -lAh'
 alias ll='ls -lh'
 
-alias psmem='ps -eo pid,user,%mem,%cpu,cmd --sort=-rss --columns=80 | head -20'
-alias pscpu='ps -eo pid,user,%mem,%cpu,cmd --sort=-%cpu --columns=80 | head -20'
+psmem() { ps -eo pid,user,%mem,%cpu,cmd --sort=-rss --columns=$(tput cols) | head -20 }
+pscpu() { ps -eo pid,user,%mem,%cpu,cmd --sort=-%cpu --columns=$(tput cols) | head -20 }
 alias hdd='df -h | sort -k 5 -r'
 
 alias serve='python -m http.server -b 127.0.0.1 8000'
