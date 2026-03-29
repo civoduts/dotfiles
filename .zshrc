@@ -23,7 +23,7 @@ alias :e=nvim
 alias g=grep
 alias grep='grep --color'
 alias egrep='grep -E'
-alias rg='rg --smart-case'
+command -v rg &>/dev/null && alias rg='rg --smart-case'
 
 alias ls='ls --color=auto'
 alias l='ls -lah'

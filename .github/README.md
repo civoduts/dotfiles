@@ -14,11 +14,12 @@ Create `~/.zshrc.local` for settings that should not be tracked: machine-specifi
 
 The following tools are used:
 
-- **oh-my-zsh**
-- **nvim**
-- **Vicinae**
-- **tmux**
-- **batcat**
 - **asdf**
-- **wl-copy**
+- **batcat**
 - **docker**
+- **nvim**
+- **oh-my-zsh**
+- **ripgrep**
+- **tmux**
+- **Vicinae**
+- **wl-copy**
