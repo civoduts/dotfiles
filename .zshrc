@@ -42,8 +42,8 @@ pscpu() {
 }
 alias hdd='df -h | sort -k 5 -r'
 
-alias serve='python -m http.server -b 127.0.0.1 8000'
-alias servelan='python -m http.server --bind 0.0.0.0 8000'
+serve() { python -m http.server -b 127.0.0.1 ${1:-8000} }
+servelan() { python -m http.server -b 0.0.0.0 ${1:-8000} }
 alias tt="/usr/bin/time -f '%e'"
 alias h="fc -liD -${HISTSIZE}"
 alias dot="git --git-dir=$DOTFILES_GIT --work-tree=$HOME"
