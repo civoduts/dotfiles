@@ -243,10 +243,10 @@ for_window [class="^.*"] border pixel 1
 bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/lid.sh
 
 # Lockscreen
-bindsym $mod+shift+x exec --no-startup-id i3lock -c 000000
+bindsym $mod+Shift+x exec --no-startup-id i3lock -c 000000
 
 # Move ALL workspaces to TARGET monitor
-bindsym $mod+shift+m exec --no-startup-id ~/.config/i3/scripts/move_ws.sh
+bindsym $mod+Shift+m exec --no-startup-id ~/.config/i3/scripts/move_ws.sh
 
 # Restart picom on reload
 exec_always --no-startup-id pkill -x picom 
