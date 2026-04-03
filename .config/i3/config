@@ -193,3 +193,12 @@ bar {
     status_command i3status
     tray_output primary
 }
+
+
+#####################
+#####################
+# CUSTOM KEYBINDS
+#####################
+#####################
+
+bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/lid.sh
