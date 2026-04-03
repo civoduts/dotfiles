@@ -48,7 +48,9 @@ alias tt="/usr/bin/time -f '%e'"
 alias h="fc -liD -${HISTSIZE}"
 alias dot="git --git-dir=$DOTFILES_GIT --work-tree=$HOME"
 
-command -v wl-copy &>/dev/null && alias cb=wl-copy
+# command -v wl-copy &>/dev/null && 
+[ -n "$WAYLAND_DISPLAY" ] && command -v wl-copy >/dev/null && alias cb=wl-copy
+[ -n "$DISPLAY" ] && command -v xclip >/dev/null && alias cb='xclip -selection clipboard'
 
 # machine specific additions; not tracked by git
 [ -f "$ZSHRC_LOCAL" ] && source "$ZSHRC_LOCAL"
