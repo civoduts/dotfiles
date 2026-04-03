@@ -25,4 +25,4 @@ The following tools are used:
 - **tmux**
 - **Vicinae**
 - **wl-copy** (if on Wayland)
-- **xclip** (if on Wayland)
+- **xclip** (if on X11)
