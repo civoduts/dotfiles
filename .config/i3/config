@@ -246,7 +246,7 @@ bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/lid.sh
 
 # Lockscreen
 bindsym $mod+shift+x exec --no-startup-id i3lock -c 000000
-:
+
 # Restart picom on reload
 exec_always --no-startup-id pkill -x picom 
 exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
