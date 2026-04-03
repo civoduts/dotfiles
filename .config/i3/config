@@ -199,8 +199,14 @@ bar {
 ######################
 ######################
 
+exec_always --no-startup-id pkill -x picom; picom --config ~/.config/picom/picom.conf
+
 # Disable borders for all windows
 for_window [class="^.*"] border pixel 0
 
 # Turn on/off laptop's display if external screen is present
 bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/lid.sh
+
+# Restart picom on reload
+exec_always --no-startup-id pkill -x picom 
+exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
