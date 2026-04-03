@@ -22,6 +22,7 @@ The following tools are used:
 - **oh-my-zsh**
 - **picom**
 - **ripgrep**
+- **rofi**
 - **tmux**
 - **Vicinae**
 - **wl-copy** (if on Wayland)
