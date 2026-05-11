@@ -12,6 +12,7 @@ plugins=(docker git asdf sudo)
 source "$ZSH/oh-my-zsh.sh"
 
 command -v batcat &>/dev/null && alias cat='batcat --theme=gruvbox-dark --style=plain --paging=never'
+command -v bat &>/dev/null && alias cat='bat --theme=gruvbox-dark --style=plain --paging=never'
 
 alias va='python -m venv .venv'
 alias activate='source .venv/bin/activate'
