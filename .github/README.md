@@ -2,7 +2,7 @@
 
 ```sh
 git clone --bare https://github.com/civoduts/dotfiles $HOME/.dotfiles.git
-dot checkout
+git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME checkout
 dot config --local status.showUntrackedFiles no
 ```
 
