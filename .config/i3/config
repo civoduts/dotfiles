@@ -251,9 +251,8 @@ bindsym $mod+Shift+x exec --no-startup-id i3lock -c 000000
 # Move ALL workspaces to TARGET monitor
 bindsym $mod+Shift+m exec --no-startup-id ~/.config/i3/scripts/move_ws.sh
 
-# Restart picom on reload
-exec_always --no-startup-id pkill -x picom 
-exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
+# Daemonize picom
+exec  --no-startup-id picom -b --config ~/.config/picom/picom.conf
 
 # Redshift
 bindsym $mod+F1 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 6500
