@@ -258,6 +258,9 @@ bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/lid.sh
 # Lockscreen
 bindsym $mod+Shift+x exec --no-startup-id i3lock -c 000000
 
+# Suspend
+bindsym $mod+Shift+BackSpace exec --no-startup-id systemctl suspend
+
 # Move ALL workspaces to TARGET monitor
 bindsym $mod+Shift+m exec --no-startup-id ~/.config/i3/scripts/move_ws.sh
 
