@@ -255,8 +255,8 @@ bindsym $mod+Shift+m exec --no-startup-id ~/.config/i3/scripts/move_ws.sh
 exec  --no-startup-id picom -b --config ~/.config/picom/picom.conf
 
 # Redshift
-bindsym $mod+F1 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 6500
-bindsym $mod+F2 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 5500
-bindsym $mod+F3 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 4500
-bindsym $mod+F4 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 4000
-bindsym $mod+F5 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 3000
+bindsym $mod+Shift+F1 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 6500
+bindsym $mod+Shift+F2 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 5500
+bindsym $mod+Shift+F3 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 4500
+bindsym $mod+Shift+F4 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 4000
+bindsym $mod+Shift+F5 exec --no-startup-id ~/.config/i3/scripts/redshift.sh 3000
