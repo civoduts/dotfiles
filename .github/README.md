@@ -22,6 +22,7 @@ The following tools are used:
 - **i3wm**
 - **nvim**
 - **oh-my-zsh**
+- **pactl**
 - **picom**
 - **ripgrep**
 - **rofi**
